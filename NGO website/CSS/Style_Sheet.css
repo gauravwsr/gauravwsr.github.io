@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Header Section */
+header{
+    position: fixed;
+    width: 100%;
+}
+#sub-nav{
+    background-color: rgb(54 171 142);
+    color: white;
+    height: 10%;
+}
+#sub-nav li{
+    display: inline;
+    margin-left: 16em;
+}
+#sub-nav ul{
+    font-size: 12px;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+.nav_bar{
+    background-color: #1C3879;
+    color: whitesmoke;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20px;
+    position: relative;
+    left:2em;
+    bottom: 10px;
+}
+.logo span{
+    color: #7fffd4;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 6em;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: #1C3879;
+    font-weight: 900;
+    background-color: #7fffd4;
+    padding: 16px 2px 28px 2px;
+}
+/* Banner Image Section */
+.banner-img{
+    border-bottom: solid #00ff5a;
+    margin-top: 74px;
+    height: 33em;
+    width: 100%;
+}
+.donation-div{
+    margin-left: 5em;
+}
+.donation-img{
+    border: solid;
+    border-radius: 5px;
+    margin: 16px 40px;
+    height: 250px;
+    width: 200px;
+}
+/* About us Section  */
+#About{
+    height: 30em;
+    background-color: #a2d36b;
+}
+h3 {
+    font-family: sarabun,sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #023964;
+    margin: 0em 0em 0em 1em;
+    letter-spacing: 0;
+}
+h4 {
+    font-family: sarabun,sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #023964;
+    margin: 0em 0em 0em 1.5px;
+    letter-spacing: 0;
+}
+p{
+    color: #fff;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: .5px;
+    padding-top: 15px;
+    margin-left: 43px;
+}
+#About div{
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 25px;
+    margin: 30px -10px 20px 11%;
+    min-height: 130px;
+    border-radius: 5px;
+}
+#About div p{
+    color: gray;
+    margin: 0;
+}
+/* Contact Us Section  */
+#Contact{
+    /* background-color: #256D85; */
+    background-image: url(../img/call.jpg);
+    background-size: cover;
+    height: 30em;
+
+}
+#Contact h3{
+    color: #fff;
+}
+form{
+    margin-left: 20%;
+    width: 45%;
+    margin-top: 5%;
+}
+#submit{
+    text-align: center;
+    margin-top: 0.5em;
+    background-color: #7de0e0;
+    color: black;
+    width: auto;
+}
+input{
+    margin: 1em;
+    margin-left: 12em;
+    width: 40%;
+}
+label{
+    color: #fff;
+    padding-top: 8px;
+    margin-left:8em;
+}
+/* Footer Section */
+#Footer{
+    background-color:#66BFBF;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
+  .footer-link{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+  }
+  .footer-link:hover{
+    font-weight: 900;
+    background-color: #66BFBF;
+    padding: 0;
+  }
+  .copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    margin: 10px auto 0px auto;
+  }
